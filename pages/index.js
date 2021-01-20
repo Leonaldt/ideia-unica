@@ -1,27 +1,29 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 
-function Home() {
-    return (
-        <div>
-            <h1>Home</h1>
-            <Contador />
-        </div>
-    )
-}
+<h1>Home</h1>
 
-function Contador () {
-    const [contador,setContador] = useState(1);
+// function Home() {
+//     return (
+//         <div>
+//             <h1>Home</h1>
+//             <Contador />
+//         </div>
+//     )
+// }
 
-    function adicionarContador () {
-        setContador(Contador + 1);
-    }
+// function Contador () {
+//     const [contador,setContador] = useState(1);
 
-    return (
-        <div>
-            <div>{contador}</div>
-            <button onClick={adicionarContador}>Adicionar</button>
-        </div>
-    )
-}
+//     function adicionarContador () {
+//         setContador(Contador + 1);
+//     }
+
+//     return (
+//         <div>
+//             <div>{contador}</div>
+//             <button onClick={adicionarContador}>Adicionar</button>
+//         </div>
+//     )
+// }
 
 export default Home
