@@ -1,15 +1,14 @@
-// import { useState } from 'react';
+import { useState } from 'react';
 
-<h1>Home</h1>
-
-// function Home() {
-//     return (
-//         <div>
-//             <h1>Home</h1>
-//             <Contador />
-//         </div>
-//     )
-// }
+function Home() {
+    return  <h1>Home</h1>
+    // return (
+    //     <div>
+    //         <h1>Home</h1>
+    //         <Contador />
+    //     </div>
+    // )
+}
 
 // function Contador () {
 //     const [contador,setContador] = useState(1);
