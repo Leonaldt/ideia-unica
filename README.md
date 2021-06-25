@@ -1,6 +1,6 @@
 ## :green_book: Project 
 
-![](./)
+![](./nextjs.png)
 
 ## :mailbox_with_mail: Get in touch!
 
